@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- End Navbar -->
+  </header>
+
+  <!-- About section -->
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="profile-image">
+        <img src="./images/mark.jpg" alt="Mark Muthii">
+      </div>
+      <p>a <strong>Fullstack Software Engineer</strong> with 7 years of experience developing software for global clientele with the <b>LAMP</b> (Linux, Apache, MySQL, PHP), MEAN(MongoDB, Express, Angular, NodeJS) and MERN (MongoDB, Express, React, NodeJS) stacks.</p>
+
+      <p>I have also built a number of mobile apps, first withIonic/Angular and recently with Flutter.</p>
+
+      <p>Currently serving as a Fullstack Software Development instructor at <a href="https://gomycode.com" target="_blank">GOMYCODE</a>, an edtech startup that recently launched a new branch in Nairobi, Kenya.</p>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Work Section -->
+  <section id="work">
+    <div class="container">
+      <h2>Work</h2>
+      <div class="work-item">
+        <h3>Google</h3>
+        <p>Worked for Google from 2010 to 2020</p>
+      </div>
+
+      <div class="work-item">
+        <h3>Safaricom</h3>
+        <p>Worked for Safaricom from 2010 to 2020</p>
+      </div>
+
+      <div class="work-item">
+        <h3>Meta</h3>
+        <p>Worked for Meta from 2010 to 2020</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Work Section -->
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="./docs/mark-resume.pdf" download>Click here to download my Resume</a>
+    </div>
+  </section>
+  <!-- End Resume Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="flex">
+        <div class="left">
+          <p>Call Me: <a href="tel:+254723819172">+254723819172</a></p>
+          <p>Email Me: <a href="mailto:mark@kram.codes?subject=Let's Work Together">mark@kram.codes</a></p>
+        </div>
+        <div class="right">
+          <form class="form">
+            <div class="flex">
+              <div class="name">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+              </div>
+
+              <div class="email">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+            </div>
+
+            <div class="message">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+
+            <div class="button">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mark Muthii</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</body>
+
+</html>
